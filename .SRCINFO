@@ -1,7 +1,7 @@
 pkgbase = nmapsi4
 	pkgdesc = Qt-based Gui nmap interface.
 	pkgver = 0.3.1
-	pkgrel = 1
+	pkgrel = 2
 	url = http://nmapsi.sourceforge.net/
 	arch = i686
 	arch = x86_64
