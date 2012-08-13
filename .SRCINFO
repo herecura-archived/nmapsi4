@@ -1,7 +1,7 @@
 pkgbase = nmapsi4
 	pkgdesc = Qt-based Gui nmap interface.
-	pkgver = 0.3.1
-	pkgrel = 2
+	pkgver = 0.3.2
+	pkgrel = 1
 	url = http://nmapsi.sourceforge.net/
 	arch = i686
 	arch = x86_64
@@ -10,8 +10,8 @@ pkgbase = nmapsi4
 	depends = qt
 	depends = qtwebkit
 	depends = nmap
-	source = http://nmapsi4.googlecode.com/files/nmapsi4-0.3.1.tar.bz2
-	sha256sums = 21fe5b03111fedeae4bbfe028250faa090aa974d5a1bfc96e8a5f0b13c1e061e
+	source = http://nmapsi4.googlecode.com/files/nmapsi4-0.3.2.tar.bz2
+	sha256sums = 6bcb94b869c68f2b1ebba258c93af2fbcc6842c60e880dfb08f07de8f3b31759
 
 pkgname = nmapsi4
 
