@@ -2,7 +2,7 @@
 
 pkgname=nmapsi4
 pkgver=0.4.1
-pkgrel=2
+pkgrel=3
 pkgdesc="Qt-based Gui nmap interface."
 arch=('i686' 'x86_64')
 url="http://nmapsi.sourceforge.net/"
@@ -11,6 +11,7 @@ conflicts=()
 depends=('qtwebkit' 'nmap')
 makedepends=('cmake>=2.6')
 source=("http://nmapsi4.googlecode.com/files/$pkgname-$pkgver.tar.bz2")
+sha256sums=('671a22acadce181a7320c052a9e6b307eb53eb1b1b4b736d05539c3c02bef000')
 
 build() {
 	cd $pkgname-$pkgver
@@ -30,4 +31,3 @@ package() {
 	make DESTDIR="$pkgdir" install
 	chmod +x "$pkgdir/usr/bin"/*
 }
-sha256sums=('671a22acadce181a7320c052a9e6b307eb53eb1b1b4b736d05539c3c02bef000')
